@@ -1,14 +1,3 @@
-# rxjs-share-stream
-
-## Install
-
-```
-npm i rxjs-share-stream
-```
-
-## Usage
-
-```js
 import { interval } from 'rxjs';
 import { take } from 'rxjs/operators';
 import { ShareStream } from '..';
@@ -44,9 +33,3 @@ share2$.subscribe({
         console.log('share2$ complete');
     },
 });
-```
-
-ShareStream will share Observables be using the key passed along with it. If the stream stored at the given key is still hot it will share the stream.
-
-ShareStream uses ReplaySubject meaning if you share the stream after its hot the stream joining later will recieve the previously emitted values.
-

@@ -1,0 +1,20 @@
+{
+    "include": ["src"],
+    "compilerOptions": {
+        "baseUrl": "src",
+        "outDir": "./dist/",
+        "sourceMap": false,
+        "declaration": true,
+        "noImplicitAny": true,
+        "lib": ["DOM", "ES6", "ES2019"],
+        "module": "CommonJS",
+        "target": "ES6",
+        "esModuleInterop": true,
+        "allowJs": false,
+        "strictNullChecks": false,
+        "strictPropertyInitialization": false,
+        "strict": false,
+        "experimentalDecorators": true
+    },
+    "exclude": ["src/examples", "src/tests"]
+}
