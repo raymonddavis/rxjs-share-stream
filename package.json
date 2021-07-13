@@ -1,6 +1,6 @@
 {
     "name": "rxjs-share-stream",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "Rxjs share stream helper",
     "main": "index.js",
     "scripts": {
